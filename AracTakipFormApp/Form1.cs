@@ -202,7 +202,7 @@ namespace AracTakipFormApp
             dosyaAc.Filter = "JPG Dosyalarý(*.jpg)|*.jpg|PNG Dosyalarý(*.png)|(*.png)";
             dosyaAc.FileName = string.Empty;
             dosyaAc.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            if (dosyaAc.ShowDialog() == DialogResult.OK) ;
+            if (dosyaAc.ShowDialog() == DialogResult.OK)
             {
                 _memoryStream = new MemoryStream();
                 //FileStream fileStream = new FileStream(dosyaAc.FileName, FileMode.Open);
